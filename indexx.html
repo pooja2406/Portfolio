@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Javascript</title>
+</head>
+<body>
+   <button id="myclick">clickme</button>
+   <p id="hello">pooja</p>
+   <input type="text" id="textInput">
+   <button id="textChanger">clickme</button>
+   <p id="demo">this is mira</p>
+   <script type="text/javascript">
+    
+   document.getElementById("textChanger").onclick=function(){
+       var textEntered="";
+      var car=["jj","kk"];
+    textEntered=document.getElementById("textInput").value;
+    document.getElementById("demo").innerHTML=textEntered;
+    document.getElementById("demo").innerHTML=car;
+   }
+</script>
+   
+</body>
+</html>
